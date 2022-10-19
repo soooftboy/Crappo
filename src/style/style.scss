@@ -302,6 +302,20 @@ body {
     cursor: pointer;
   }
 
+  &__options {
+    display: none;
+  }
+
+  &__option {
+    font-size: 20px;
+    line-height: 150%;
+    padding: 8px 0 8px 8px;
+    background: inherit;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+  }
+
   &__arrow {
     color: #bdbdbd;
     margin: 3px 0 0 131px;
@@ -352,10 +366,6 @@ body {
   &__note {
     color: #828282;
     line-height: 28px;
-  }
-
-  &__options {
-    display: none;
   }
 }
 
